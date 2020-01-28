@@ -16,7 +16,7 @@ docker-compose -f docker-compose-es.yaml exec mysql bash -c 'mysql -u mysqluser 
 
 
 
-docker exec -it faa54f154019 bash
+docker exec -it 6ed1321b128e bash
 
 mysql -u mysqluser -pmysqlpw inventory
 
